@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>35</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_color">
+        <property name="minimumSize">
+         <size>
+          <width>35</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>45</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>American Typewriter</family>
+          <pointsize>24</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:	rgb(255,227,81);
+	border: none;
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+	
+}
+QPushButton:hover{
+	background-color:	rgb(255,240,90);
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 25pt 'American Typewriter'; color:rgb(50, 50, 50)
+}
+QPushButton:pressed{
+	background-color:	rgb(255,215,70);
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+}</string>
+        </property>
+        <property name="text">
+         <string>◐</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>American Typewriter</family>
+          <pointsize>26</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 5px;
+background-color: rgba(136, 160, 131, 207);
+border: none;
+font: 700 26pt 'American Typewriter'; color:rgb(50, 50, 50)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_serch">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>37</height>
+         </size>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>American Typewriter</family>
+          <pointsize>24</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:	rgb(255,227,81);
+	border: none;
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+	
+}
+QPushButton:hover{
+	background-color:	rgb(255,240,90);
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 25pt 'American Typewriter'; color:rgb(50, 50, 50)
+}
+QPushButton:pressed{
+	background-color:	rgb(255,215,70);
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+}</string>
+        </property>
+        <property name="text">
+         <string>Найти</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_edit">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>37</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>American Typewriter</family>
+          <pointsize>24</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:	rgb(255,227,81);
+	border: none;
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+	
+}
+QPushButton:hover{
+	background-color:	rgb(255,240,90);
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 25pt 'American Typewriter'; color:rgb(50, 50, 50)
+}
+QPushButton:pressed{
+	background-color:	rgb(255,215,70);
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(195, 189, 54);
+	border-right: 1px solid rgb(195, 189, 54);
+	border-left: 1px solid rgb(195, 189, 54);
+	font: 700 24pt 'American Typewriter'; color:rgb(50, 50, 50)
+}</string>
+        </property>
+        <property name="text">
+         <string>Изменить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 700 70pt 'American Typewriter'; color:rgb(50, 50, 50)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_meaning">
+      <property name="minimumSize">
+       <size>
+        <width>1000</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 34pt 'American Typewriter'; color:rgb(50, 50, 50)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
